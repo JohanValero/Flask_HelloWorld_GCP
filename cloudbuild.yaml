@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'flask_app', '.']
-- name: 'grc.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'us-central1-docker.pkg.dev/${PROJECT_ID}/flask-app-demo/flask_app', '.']
