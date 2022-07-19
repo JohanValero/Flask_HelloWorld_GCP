@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     currentDateAndTime = datetime.now()
-    return "Hello world: " + currentDateAndTime.strftime("%H:%M:%S")
+    return "Hola mundo de Johan: " + currentDateAndTime.strftime("%H:%M:%S")
 
 gPORT = os.getenv('PORT', default=None)
 print("PORT: ", gPORT)
