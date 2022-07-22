@@ -6,7 +6,7 @@ FROM python:3.10.5-slim-bullseye
 #docker run -p 81:81 flask_app
 
 RUN mkdir wd
-WORKDIR wd
+WORKDIR /wd
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
