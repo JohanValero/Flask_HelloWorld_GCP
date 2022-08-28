@@ -14,4 +14,4 @@ gPORT = os.getenv('PORT', default=None)
 gAUTHOR_NAME = os.getenv("AUTHOR", default=None)
 print("PORT: ", gPORT)
 
-app.run(host='0.0.0.0', port=gPORT)
+app.run(host = '0.0.0.0', port = gPORT)
